@@ -17,7 +17,7 @@
 
 header {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     padding: 20px;
     background-color: #FFFFFF;
 }
@@ -40,6 +40,10 @@ header {
     color: #6B7280;
     font-size: 12px;
     list-style: none;
+}
+
+.header-list-icon {
+    display: none;
 }
 
 .get-early_access-btn {
@@ -326,8 +330,6 @@ body {
 footer {
     background-color: #1A2332;
     width: 100%;
-    height: 179px;
-    margin: 30px auto;
 }
 
 .footer-div {
@@ -402,8 +404,19 @@ footer {
 
     /* hero-section start*/
 
+    .header{
+
+        display: grid;
+        justify-content: space-between;
+    }
+
     .header-list {
         display: none;
+    }
+
+    .header-list-icon {
+        display: flex;
+        align-items: center;
     }
 
     .hero-section {
@@ -479,6 +492,7 @@ footer {
     .ready-to-heading {
         font-size: 22.5px;
     }
+
     .readyto-checkicon-paragraph-parent {
         flex-direction: column;
     }
@@ -487,18 +501,19 @@ footer {
     /* ready to end */
     /* footer start */
 
-    footer{
-        height: 279px;
-    }
-    .footer-subdiv{
+
+    .footer-subdiv {
         display: flex;
         flex-direction: column;
         gap: 10px;
 
     }
-    .footer-links{
+
+    .footer-links {
         flex-direction: column;
     }
+
+
     /* footer end  */
 
 }
