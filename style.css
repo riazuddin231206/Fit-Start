@@ -510,7 +510,9 @@ footer {
     }
 
     .footer-links {
+        
         flex-direction: column;
+
     }
 
 
