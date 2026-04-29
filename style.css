@@ -1,0 +1,504 @@
+@import url('https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&family=DM+Serif+Display:ital@0;1&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+}
+
+.content {
+    flex: 1;
+    /* এটি খালি জায়গাগুলো নিয়ে ফুটারকে নিচে নামিয়ে দিবে */
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    background-color: #FFFFFF;
+}
+
+.heading {
+    display: flex;
+    font-size: 12px;
+    gap: 7px;
+    align-items: center;
+}
+
+.heading-image {
+    height: 27px;
+}
+
+.header-list {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #6B7280;
+    font-size: 12px;
+    list-style: none;
+}
+
+.get-early_access-btn {
+    font-size: 12px;
+    color: white;
+    background-color: #22C55E;
+    border-style: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #F8FAFC;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+/* hero section start */
+.hero-section {
+    background-color: #0F1923;
+    color: white;
+    width: 100%;
+    height: 486px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.free-early-section {
+    font-size: 10.5px;
+    border: 1px solid #ffffff2b;
+    background-color: #ffffff2b;
+    color: #D1D5DB;
+    padding: 6px 10px;
+    line-height: 11px;
+    border-radius: 9999px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    gap: 5px;
+}
+
+.free-early-icon {
+    color: #22C55E;
+    font-size: 8px;
+}
+
+.hero-heading {
+    font-size: 60px;
+    line-height: 60px;
+}
+
+.hero-paragraph {
+    font-size: 15px;
+    color: #9CA3AF;
+    line-height: 21px;
+}
+
+.hero-btn1 {
+    border: none;
+    padding: 6px 10px;
+    background-color: #22C55E;
+    color: #FFFFFF;
+    border-radius: 9px;
+}
+
+.hero-btn2 {
+    border: none;
+    padding: 6px 10px;
+    border: 1px solid #ffffff2b;
+    background-color: #0F1923;
+    color: #FFFFFF;
+    border-radius: 9px;
+}
+
+
+
+/* hero section end  */
+/* baginners section start */
+
+.beginners-parent-container {
+    padding: 40px 0px;
+    background-color: #FFFFFF;
+
+}
+
+.beginners-heading-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.begineers-heading {
+    font-size: 27px;
+    font-weight: 400px;
+}
+
+.beginners-heading-paragraph {
+    font-size: 13.5px;
+    color: #6B7280;
+}
+
+.begineers-stack-parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    width: 80%;
+    margin: 0px auto;
+}
+
+.beginners-stack {
+    border: 1px solid rgba(0, 0, 0, 0.266);
+    border-radius: 12px;
+    height: 205px;
+    width: 226px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0px;
+}
+
+.begineer-icon {
+    height: 24px;
+    width: 24px;
+    padding: 20px 35px 35px 20px;
+    border-radius: 9999px;
+    background-color: #EF4444;
+    color: #FFFFFF;
+}
+
+
+.beginner-stack-heading {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.begineer-stack-paragraph {
+    font-size: 12px;
+    color: #6B7280;
+}
+
+
+
+
+/* baginners section end */
+
+/* personal coach start  */
+
+.personal-coach-parent-container {
+    background-color: #F8FAFC;
+}
+
+.personal-coach-parent-subcontainer {
+    width: 80%;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+.personal-coach-image {
+    height: 354px;
+    width: 358px;
+}
+
+.personal-coach-text-parent {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.the-solution-heading {
+    font-size: 10.5px;
+    color: #22C55E;
+    font-weight: 300px;
+}
+
+.your-personal-coach-heading {
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.your-personal-coach-paragraph {
+    font-size: 13.5px;
+    color: #6B7280;
+
+}
+
+.check-icon-paragraph-parent {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.check-icon {
+    color: #22C55E;
+}
+
+.check-paragraph {
+    font-size: 12px;
+}
+
+
+/* personal coach end */
+
+
+/* Ready To Start */
+
+.ready-to-main-section {
+    background-color: #F8FAFC;
+    justify-items: center;
+    margin: 30px auto;
+}
+
+.ready-to-parent-container {
+    background-color: #FFFFFF;
+    height: 284px;
+    width: 672px;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    text-align: center;
+}
+
+.ready-to-heading {
+    font-size: 27px;
+    font-weight: 800;
+}
+
+.ready-to-paragraph {
+    font-size: 13.5px;
+    color: #6B7280;
+}
+
+.get-early-btn {
+    border: none;
+    font-size: 13.5px;
+    font-weight: 400;
+    padding: 10px 20px;
+    border-radius: 9999px;
+    background-color: #22C55E;
+    color: #FFFFFF;
+}
+
+.readyto-checkicon-paragraph-parent {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.readyto-icon {
+    color: #22C55E;
+}
+
+.readyto-paragraph {
+    font-size: 10.5px;
+}
+
+
+
+
+
+/* Ready To end */
+/* footer start */
+footer {
+    background-color: #1A2332;
+    width: 100%;
+    height: 179px;
+    margin: 30px auto;
+}
+
+.footer-div {
+
+    padding: 30px 30px;
+    align-items: center;
+
+}
+
+.footer-subdiv {
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+}
+
+.footer-heading {
+    display: flex;
+    font-size: 18px;
+    gap: 7px;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.footer-heading-image {
+    height: 27px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.links-paragraph {
+    color: #9CA3AF;
+    font-size: 10.5px;
+}
+
+.footer-app-icon-container {
+    display: flex;
+    gap: 8px;
+
+}
+
+.app-icon {
+    color: #9CA3AF;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.047);
+    border-radius: 9999px;
+}
+
+.saparate {
+    background-color: white;
+    height: .5px;
+    width: 80%;
+    margin: 18px auto;
+}
+
+.footer-last-paragraph {
+    color: #6B7280;
+    width: 80%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+/* footer end */
+
+
+
+@media(max-width:600px) {
+
+    /* hero-section start*/
+
+    .header-list {
+        display: none;
+    }
+
+    .hero-section {
+        gap: 20px;
+        height: 500px;
+    }
+
+    .hero-heading {
+        font-size: 29px;
+        line-height: 37px;
+        width: 90%;
+    }
+
+    .hero-btn-container {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        height: 55px;
+        width: 336px;
+    }
+
+    /* hero-section endt*/
+    /* baginners section start */
+
+    .begineers-heading {
+        font-size: 24px;
+        font-weight: 800;
+        width: 90%;
+        text-align: center;
+    }
+
+    .beginners-heading-paragraph {
+        text-align: center;
+        width: 90%;
+    }
+
+    .begineers-stack-parent {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .beginners-stack {
+        width: 336px;
+        height: 185px;
+
+    }
+
+
+
+    /* baginners section end */
+
+    /* personal coach start  */
+
+    .personal-coach-parent-subcontainer {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .your-personal-coach-heading {
+        font-size: 22.5px;
+    }
+
+    /* personal coach end */
+
+    /* ready to start */
+    .ready-to-parent-container {
+        height: 287px;
+        width: 336px;
+    }
+
+    .ready-to-heading {
+        font-size: 22.5px;
+    }
+    .readyto-checkicon-paragraph-parent {
+        flex-direction: column;
+    }
+
+
+    /* ready to end */
+    /* footer start */
+
+    footer{
+        height: 279px;
+    }
+    .footer-subdiv{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+    }
+    .footer-links{
+        flex-direction: column;
+    }
+    /* footer end  */
+
+}
